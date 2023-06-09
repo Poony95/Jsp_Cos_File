@@ -1,0 +1,46 @@
+create table board(
+	no number primary key,
+	title varchar2(50),
+	writer varchar2(20),
+	pwd varchar2(20),
+	content varchar2(3000),
+	regdate date,
+	hit number,
+	fname varchar2(50)
+);
+
+create sequence seq_board;
+
+- BoarVO를 작성합니다.
+- BoardDAO를 작성하고	insertBoard메소드를 추가합니다. 
+	
+
+
+
+게시물 등록을 위한
+웹 문서를 작성 해 봅니다.
+(파일 업로드도 가능하도록 합니다.)
+
+
+게시물 목록을 출력하는 웹 문서를 작성 합니다.
+(글번호, 글제목, 작성자)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
